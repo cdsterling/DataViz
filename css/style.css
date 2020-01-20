@@ -20,7 +20,15 @@
     margin-right: 5px;
     text-align: center;
     z-index: 100;
+    width: 150px;
+    transition: width .5s;
+    
 
+}
+
+.BarChart-bar:hover{
+    width: 155px;
+    border: 10px solid antiquewhite; 
 }
 .BarChart-bar:nth-of-type(even){
     background: #8CBA51; /*green */
